@@ -29,7 +29,7 @@ body {
 
 .text a {
   color: beige;
-  text-decoration: none;
+  text-decoration: underline dotted;
 }
 
 .text a:hover {
@@ -42,6 +42,26 @@ body {
   padding: 100px;
   display: flex;
   justify-content: space-evenly;
+  background-color: #8bc7f9;
+}
+
+.info {
+  padding: 20px 0;
+}
+
+.projects a {
+  color: black;
+  text-decoration: underline;
+  padding: 10px 10px 10px 0;
+}
+
+.projects h3 {
+  padding-bottom: 15px;
+}
+
+.projects img {
+  width: 250px;
+  height: 170px;
 }
 
 .project-1,
@@ -49,33 +69,7 @@ body {
   padding-bottom: 50px;
 }
 
-.project-1 img {
-  width: 250px;
-  height: auto;
-}
-
-.project-1 h3 {
-  padding-bottom: 15px;
-}
-
-.project-1 a {
-  padding: 5px 10px 5px 0;
-}
-
-.project-2 img {
-  width: 250px;
-  height: auto;
-}
-
-.project-2 h3 {
-  padding-bottom: 15px;
-}
-
-.project-2 a {
-  padding: 5px 10px 5px 0;
-}
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .text a {
     text-decoration: underline;
   }
@@ -86,12 +80,3 @@ body {
     justify-content: space-around;
   }
 }
-
-/*
-TODO
-
-- ADD UNDERLINE ON MOBILE
-
-
-
-*/
