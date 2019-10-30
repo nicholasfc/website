@@ -11,10 +11,10 @@ body {
 
 body {
   font-family: "Raleway", sans-serif;
+  background-color: rgb(11, 128, 224);
 }
 
 .landing {
-  background-color: rgb(11, 128, 224);
   color: beige;
   height: 100vh;
   width: auto;
@@ -43,11 +43,10 @@ body {
 
 .projects {
   color: black;
-  height: 100vh;
   padding: 100px;
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #8bc7f9;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .info {
@@ -76,11 +75,5 @@ body {
 @media only screen and (max-width: 450px) {
   .text a {
     text-decoration: underline;
-  }
-
-  .projects {
-    padding: 30px;
-    flex-direction: column;
-    justify-content: space-around;
   }
 }
