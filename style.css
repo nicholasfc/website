@@ -80,4 +80,7 @@ body {
   .text a {
     text-decoration: underline;
   }
+  .projects {
+    padding: 50px;
+  }
 }
